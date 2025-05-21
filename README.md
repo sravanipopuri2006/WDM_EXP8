@@ -1,6 +1,7 @@
 ### EX8 Web Scraping On E-commerce platform using BeautifulSoup
 ### DATE: 
-### AIM: To perform Web Scraping on Amazon using (beautifulsoup) Python.
+### AIM:
+To perform Web Scraping on Amazon using (beautifulsoup) Python.
 ### Description: 
 <div align = "justify">
 Web scraping is the process of extracting data from various websites and parsing it. In other words, it’s a technique 
@@ -25,7 +26,7 @@ One can search, navigate, and modify data using a parser. It’s versatile and s
 8) Visualize Product Data using a Bar Chart
 
 ### Program:
-```PYTHON
+```
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -75,5 +76,9 @@ else:
 ```
 
 ### Output:
+![image](https://github.com/user-attachments/assets/2617fbcb-fd40-4cac-a701-43ea5ed74cb8)
+
+![image](https://github.com/user-attachments/assets/20cadfa6-afc5-4798-a815-47b44c291da7)
 
 ### Result:
+Thus, we have successfully performed web scraping on Amazon using Python and BeautifulSoup, extracted product names and prices based on a search query, and visualized the data using a horizontal bar chart. This experiment demonstrates how structured information can be retrieved from an unstructured HTML page and used for data analysis or visualization.
